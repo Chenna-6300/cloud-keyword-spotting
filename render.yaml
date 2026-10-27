@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: cloud-keyword-spotting
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && chmod +x modelfile.eim
+    startCommand: gunicorn -w 1 -b 0.0.0.0:$PORT cloud_server:app
+    healthCheckPath: /

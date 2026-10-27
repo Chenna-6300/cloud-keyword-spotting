@@ -1,0 +1,4 @@
+Flask
+gunicorn
+numpy
+edge_impulse_linux
