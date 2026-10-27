@@ -2,4 +2,5 @@ Flask
 gunicorn
 numpy
 PyAudio
+six
 edge_impulse_linux
