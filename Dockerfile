@@ -15,9 +15,6 @@ RUN pip install --no-cache-dir --upgrade pip
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Explicitly guarantee this dependency exists
-RUN pip install --no-cache-dir six
-
 COPY . .
 
 RUN chmod +x modelfile.eim
