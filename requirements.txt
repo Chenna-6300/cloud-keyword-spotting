@@ -3,4 +3,5 @@ gunicorn
 numpy
 PyAudio
 six
+opencv-python-headless>=4.5.1.48,<5
 edge_impulse_linux
